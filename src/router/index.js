@@ -12,22 +12,22 @@ const routes = [
   {
     path: "/home",
     name: "Home",
-    component: () =>import("../views/Home")
+    component: () =>import("../views/Home/Home")
   },
   {
     path: "/category",
     name: "Category",
-    component: () =>import("../views/Category")
+    component: () =>import("../views/Category/Category")
   },
   {
     path: "/shopcart",
     name: "Shopcart",
-    component: () =>import("../views/Shopcart")
+    component: () =>import("../views/Shopcart/Shopcart")
   },
   {
     path: "/profile",
     name: "Profile",
-    component: () =>import("../views/Profile")
+    component: () =>import("../views/Profile/Profile")
   }
 ]
 
